@@ -1,0 +1,10 @@
+body{
+    background-color: black;
+}
+
+#pretty{
+    transition: transform .5s;
+}
+#pretty:hover{
+    transform: scale(1.5);
+}

@@ -1,0 +1,41 @@
+@media (min-width: 320px){
+    body{
+    background-image: url('../img/maybe.jpg');
+    background-size: cover;
+    }
+}
+/*Para celulares (Prefijo xs) el color de fondo será gris*/
+@media (min-width: 576px){
+body{
+    background-image: url('../img/mm.jpg');
+
+    
+}
+}
+
+
+/*Para tablets (prefijo md) el color de fondo será naranja*/
+@media (min-width: 768px){
+    body{
+        background-image: url('../img/mm.jpg');
+    }
+}
+
+/* Para computadoras con un ancho menor a 1200px (prefijo lg) el
+color de fondo será verde.*/
+
+@media (min-width: 992px){
+    body{
+        background-image: url('../img/mm.jpg');
+
+    }
+}
+
+/* Para computadoras con el ancho mayor o igual a 1200px (prefijo xl)
+el color de fondo será azul*/
+@media (min-width: 1200px){
+    body{
+        background-image: url('../img/mm.jpg');
+
+    }
+}
