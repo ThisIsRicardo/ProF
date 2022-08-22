@@ -1,7 +1,7 @@
 <?php
 
 
-$conex = mysqli_connect("localhost","root","1murpuppet!","registro");
+$conex = mysqli_connect("localhost","root","","registro");
 if (isset($conex)) {
     //echo "Conexion Exitosa";
   }else{
